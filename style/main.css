@@ -6,7 +6,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 body 		{background:black; color: white; font-family: 'Exo',sans-serif;font-size: 18px; line-height: 25px}
 a {color:white;}
 
-#header 	{ width:640px;height:237px; background:url('../images/logo.png') top right no-repeat;margin:50px auto;}
+#header 	{ width:640px;height:237px; background:url('../images/LOGO.png') top right no-repeat;margin:50px auto;}
 
 #content	{width:600px;padding:0 20px; margin:0 auto 50px auto;position:relative;}
 #text 		{text-align: justify;}

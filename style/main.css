@@ -26,11 +26,11 @@ a {color:white;}
 #nav span 	{color:#383838;}
 #nav li:hover span {color:white;}
 
-#footer		{border-top:2px solid #383838;color:#383838;width:600px;padding:0 px 0 0;margin:0 auto 20px auto; text-align: right;}
+#footer		{overflow:hidden;border-top:2px solid #383838;color:#383838;width:600px;padding:0 px 0 0;margin:0 auto 20px auto; text-align: right;}
 #footer:hover {border-top:2px solid white;}
 #footer a	{color:#383838;}
 #footer p:hover,#footer a:hover {color:white;}
-
+#footer p.left {float:left; clear:left; }
 @media all and (max-width: 900px) {
 	#nav {position:relative; top:0;right:0;width:100%;}
 	#nav li{display :inline-block;}

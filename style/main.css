@@ -11,10 +11,10 @@ a {color:white;}
 #content	{width:600px;padding:0 20px; margin:0 auto 50px auto;position:relative;}
 #text 		{text-align: justify;}
 
-.image-row   {margin:20px 0;position:relative; text-align:left;}
+.image-row   { line-height:27px; font-size:18px; margin:20px 0;position:relative; text-align:left;}
 .image-row > div { text-align:right; position:relative; padding:0; display:inline-block; height:100px ;width:190px; margin-right:15px; background:blue;}
 .image-row img {display:block; position:absolute;top:0;left:0;z-index:1;}
-.image-row span { position:relative; top:50px; z-index:2; padding:3px; background:rgba(100,100,100,0.5); opacity:0.2;}
+.image-row span { position:relative; top:46px; z-index:2; padding:3px; background:rgba(100,100,100,0.5); opacity:0.2;}
 .image-row > div:hover span {opacity:1;}
 .image-row > div.first {margin-left:0;}
 .image-row > div.last{margin-right:0;}

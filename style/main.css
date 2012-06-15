@@ -11,7 +11,7 @@ a {color:white;}
 #content	{width:600px;padding:0 20px; margin:0 auto 50px auto;position:relative;}
 #text 		{text-align: justify;}
 
-.image-row   { line-height:27px; font-size:18px; margin:20px 0;position:relative; text-align:left;}
+.image-row   { line-height:27px; font-size:18px; margin:15px 0;position:relative; text-align:left;}
 .image-row > div { text-align:right; position:relative; padding:0; display:inline-block; height:100px ;width:190px; margin-right:15px; background:blue;}
 .image-row img {display:block; position:absolute;top:0;left:0;z-index:1;}
 .image-row span { position:relative; top:46px; z-index:2; padding:3px; background:rgba(100,100,100,0.5); opacity:0.2;}
@@ -20,6 +20,12 @@ a {color:white;}
 .image-row > div.last{margin-right:0;}
 
 .image-row.float {float:right; clear:both; margin:10px 0 10px 10px;}
+
+.fullimg {overflow:hidden;display:block; margin:0 0 10px 0;}
+.fullimg img {display:block;}
+.fullimg span {position:relative; bottom:50px; z-index:2; float:right; padding:5px; background:rgba(100,100,100,0.5);}
+
+#text p {margin:0 0 10px;}
 
 #nav 		{position:absolute;width:200px;font-size:20px; top:0; right:650px; text-align:right; list-style:none;}
 #nav a		{text-decoration: none;color:white; }

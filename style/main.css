@@ -25,6 +25,10 @@ a {color:white;}
 .fullimg img {display:block;}
 .fullimg span {position:relative; bottom:50px; z-index:2; float:right; padding:5px; background:rgba(100,100,100,0.5);}
 
+.annotation { text-align:left; line-height:1.5em; font-size:0.6em;color:black;display:block; position:relative;float:right;border-left:solid 5px transpatent; width:100px; margin-right:-130px;padding-left:10px;margin-top:3px; }
+.annotation:before{content:" ";top:0px;left:-17px;position:absolute; width: 0;border-top: 12px solid transparent;border-bottom: 12px solid transparent;border-right:12px solid #606060;;}
+
+.annotation:hover {color:white; border-left:solid 5px #606060;}
 #text p {margin:0 0 10px;}
 
 #nav 		{position:absolute;width:200px;font-size:20px; top:0; right:650px; text-align:right; list-style:none;}

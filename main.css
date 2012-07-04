@@ -28,16 +28,24 @@ a 		{color:white;}
 .fullimg img {display:block;}
 .fullimg span {position:relative; bottom:50px; z-index:2; float:right; padding:5px; background:rgba(100,100,100,0.5);}
 
-.annotation { text-align:left; line-height:1.5em; font-size:0.6em;color:black;display:block; position:relative;float:right;border-left:solid 5px transpatent; width:100px; margin-right:-130px;padding-left:10px;margin-top:3px; }
+.annotation { text-align:left; line-height:1.5em; font-size:0.6em;color:transparent;display:block; position:relative;float:right;border-left:solid 5px transpatent; width:100px; margin-right:-130px;padding-left:10px;margin-top:3px; }
 .annotation:before{content:" ";top:0px;left:-17px;position:absolute; width: 0;border-top: 12px solid transparent;border-bottom: 12px solid transparent;border-right:12px solid #606060;;}
 
 .annotation:hover {color:white; border-left:solid 5px #606060;}
 #text p {margin:0 0 10px;}
+#text ul { margin-left:5px; }
+#text li {padding-left:20px;margin:3px 0;border-left:3px solid #77D8F0;}
+#text li:hover {background:#667;}
+
+.gallery .fullimg{display:inline-block;}
+.gallery {overflow:scroll; width:600px;}
+.gallery .container{width:100000px;}
 
 #nav 		{position:absolute;width:200px;font-size:20px; top:0; right:650px; text-align:right; list-style:none;}
 #nav a		{text-decoration: none;color:white; }
 #nav span 	{color:#77D8F0;}
-#nav li:hover span {color:white;}
+#nav li:hover span,
+#nav li.selected span {color:white;}
 
 #footer		{overflow:hidden;border-top:2px solid #111;color:#111;width:600px;padding:0 0 20px 0;margin:0 auto 20px auto; text-align: right;}
 #footer:hover {border-top:2px solid #111;}
@@ -54,9 +62,9 @@ a 		{color:white;}
 /*CSS3*/
 
 html{
-background-image: linear-gradient(bottom, #000000 27%, #0C4345 85%);
-background-image: -o-linear-gradient(bottom, #000000 27%, #0C4345 85%);
-background-image: -moz-linear-gradient(bottom, #000000 27%, #0C4345 85%);
-background-image: -webkit-linear-gradient(bottom, #000000 27%, #0C4345 85%);
-background-image: -ms-linear-gradient(bottom, #000000 27%, #0C4345 85%);
+background-image: linear-gradient(bottom, #5CAAE6 0%, #283861 2%, #000000 62%);
+background-image: -o-linear-gradient(bottom, #5CAAE6 0%, #283861 2%, #000000 62%);
+background-image: -moz-linear-gradient(bottom, #5CAAE6 0%, #283861 2%, #000000 62%);
+background-image: -webkit-linear-gradient(bottom, #5CAAE6 0%, #283861 2%, #000000 62%);
+background-image: -ms-linear-gradient(bottom, #5CAAE6 0%, #283861 2%, #000000 62%);
 }

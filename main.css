@@ -6,7 +6,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 html,body	{width:100%;}
 
 html		{background:url('background.png') repeat-y top left #020203;}
-body 	{background:url('backgrounddots.png') 200% 200% repeat; color: white; font-family: 'Exo',sans-serif;font-size: 18px; line-height: 25px}
+body 	{background:url('backgrounddotsmin.png') 200% 200% repeat; color: white; font-family: 'Exo',sans-serif;font-size: 18px; line-height: 25px}
 a 		{color:white;}
 
 #header 	{ width:600px;height:237px; background:url('LOGO.png') top right no-repeat;margin:50px auto;}
@@ -47,4 +47,16 @@ a 		{color:white;}
 @media all and (max-width: 900px) {
 	#nav {position:relative; top:0;right:0;width:100%;}
 	#nav li{display :inline-block;}
+}
+
+
+
+/*CSS3*/
+
+html{
+background-image: linear-gradient(bottom, #000000 27%, #0C4345 85%);
+background-image: -o-linear-gradient(bottom, #000000 27%, #0C4345 85%);
+background-image: -moz-linear-gradient(bottom, #000000 27%, #0C4345 85%);
+background-image: -webkit-linear-gradient(bottom, #000000 27%, #0C4345 85%);
+background-image: -ms-linear-gradient(bottom, #000000 27%, #0C4345 85%);
 }

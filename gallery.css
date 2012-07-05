@@ -1,9 +1,14 @@
 #images-box {
 	/* The total width of the image-box, mainly for centering */
-	width: 850px;
+	width: 600px;
+	height:500px;
 	margin: 0px auto;
 	position: relative;
-	top: 70px;
+	display:block;
+	overflow:hidden;
+	background:white;
+	border-top:white solid 3px;
+	
 }
 
 .image-lightbox img {
@@ -15,8 +20,8 @@
 
 .holder {
 	/* The width and height, you can change these */
-	width: 250px;
-	height: 166px;
+	width: 190px;
+	height: 100px;
 	/* Float left, so everything aligns right */
 	float: left;
 	margin: 0 20px 0 0;
@@ -26,11 +31,10 @@
 	/* Inherit width and height from the .holder */
 	width: inherit;
 	height: inherit;
-	padding: 10px;
-	/* Box shadow */
+	/* Box shadow 
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
 	background: #fff;
-	border-radius: 5px;
+	border-radius: 5px;*/
 	/* Position absolutely so we can zoom it out later */
 	position: absolute;
 	top: 0;
@@ -47,8 +51,8 @@
 }
 
 .image-lightbox .expand {
-	width: 100%;
-	height: 100%;
+	width: 600px;
+	height: 400px;
 	position: absolute;
 	top: 0;
 	z-index: 4000;
@@ -65,10 +69,9 @@
 .image-lightbox .close a {
 	height: auto; width: auto;
 	padding: 5px 10px;
-	color: #fff;
+	color: #000;
 	text-decoration: none;
-	background: #22272c;
-	box-shadow: inset 0px 24px 20px -15px rgba(255, 255, 255, 0.1), inset 0px 0px 10px rgba(0,0,0,0.4), 0px 0px 30px rgba(255,255,255,0.4);
+	background: #fff;
 	border-radius: 5px;
 	font-weight: bold;
 	float: right;
@@ -79,11 +82,11 @@
 }
 
 div[id^=image]:target {
-	width: 450px;
+	width: 600px;
 	height: 300px;
 	z-index: 5000;
-	top: 50px;
-	left: 200px;
+	top: 120px;
+	left: 0px;
 }
 div[id^=image]:target .close {
 	display: block;
@@ -93,8 +96,8 @@ div[id^=image]:target .expand {
 	display: none;
 }
 
-div#image-1:target, div#image-2:target, div#image-3:target { left: 200px; }
+div#image-1:target, div#image-2:target, div#image-3:target { left: 0px; }
 
 div#image-1 { left: 0; }
-div#image-2 { left: 290px; }
-div#image-3 { left: 580px; }
+div#image-2 { left: 205px; }
+div#image-3 { left: 410px; }

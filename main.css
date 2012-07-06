@@ -5,7 +5,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 
 html,body	{width:100%;}
 
-html		{}
+html		{min-height:100%;}
 body 	{background:url('backgrounddotsmin2.png') 200% 200% repeat; color: white; font-family: 'Exo',sans-serif;font-size: 18px; line-height: 25px}
 a 		{color:white;}
 
@@ -44,7 +44,8 @@ a 		{color:white;}
 
 #nav 		{position:absolute;width:200px;font-size:20px; top:0; right:650px; text-align:right; list-style:none;}
 #nav a		{text-decoration: none;color:white; }
-#nav span 	{color:#77D8F0;}
+#nav span 	{color:#77D8F0; padding:0 10px;display:inline-block;}
+#nav li.sub-heading{color:#ccf;}
 #nav li:hover span,
 #nav li.selected span {color:white;}
 

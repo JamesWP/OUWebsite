@@ -9,7 +9,7 @@ html		{min-height:100%;}
 body 	{background:url('backgrounddotsmin2.png') 200% 200% repeat; color: white; font-family: 'Exo',sans-serif;font-size: 18px; line-height: 25px}
 a 		{color:white;}
 
-#header 	{ position:relative;width:600px;height:237px; background:url('logo.png') top right no-repeat;top:50px;margin:0 auto 50px auto;}
+#header 	{ position:relative;width:600px;height:237px; background:url('LOGO.png') top right no-repeat;top:50px;margin:0 auto 50px auto;}
 
 #content	{width:600px;padding:0 20px; margin:0 auto 50px auto;position:relative;}
 #text 		{text-align: justify;}
